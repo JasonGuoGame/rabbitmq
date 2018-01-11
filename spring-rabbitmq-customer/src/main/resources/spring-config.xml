@@ -18,8 +18,8 @@
 	<!-- 队列声明 -->
 	<rabbit:queue name="blue" durable="true" />
     <!-- 红色监听处理器 -->
-	<bean id="redQueueListener" class="com.aitongyi.customer.RedQueueListener" />
+	<bean id="redQueueListener" class="com.rabbitmq.customer.RedQueueListener" />
     <!-- 颜色监听处理器 -->
-	<bean id="blueQueueListener" class="com.aitongyi.customer.BlueQueueListener" />
+	<bean id="blueQueueListener" class="com.rabbitmq.customer.BlueQueueListener" />
 
 </beans>
